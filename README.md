@@ -1,6 +1,6 @@
 # Bluetooth-Controlled Raspberry Pi Pico Car with Object Detection
 
-This project is a Bluetooth-controlled car built with a Raspberry Pi Pico. The car can be controlled wirelessly via a smartphone app, and it also features an object detection system to identify different types of soda cans using a pre-trained YOLOv8 model.
+This project is a Bluetooth-controlled car built with a Raspberry Pi Pico. The car can be controlled wirelessly via a smartphone app.
 
 ## Features
 
