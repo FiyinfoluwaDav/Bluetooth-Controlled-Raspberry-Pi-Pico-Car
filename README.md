@@ -68,7 +68,7 @@ And a video of the car in action:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Bluetooth-Controlled-Raspberry-Pi-Pico-Car.git
+    git clone https://github.com/FiyinfoluwaDav/Bluetooth-Controlled-Raspberry-Pi-Pico-Car.git
     cd Bluetooth-Controlled-Raspberry-Pi-Pico-Car
     ```
 2.  **Install dependencies:**
