@@ -5,7 +5,6 @@ This project is a Bluetooth-controlled car built with a Raspberry Pi Pico. The c
 ## Features
 
 - **Wireless Control:** Control the car's movement (forward, backward, left, right) and speed using a Bluetooth-enabled smartphone application.
-- **Object Detection:** A YOLOv8 model trained to detect and classify different soda cans ("7UP", "Big", "Coke", "EST", "Fanta", "Pepsi", and "Sprite").
 - **Raspberry Pi Pico:** The core of the project, handling the control logic for the car's motors.
 
 ## Hardware Components
@@ -22,9 +21,7 @@ This project is a Bluetooth-controlled car built with a Raspberry Pi Pico. The c
 ## Software and Libraries
 
 - **MicroPython:** For programming the Raspberry Pi Pico.
-- **YOLOv8:** For object detection.
 - **Python:** For the object detection script.
-- **Roboflow:** For dataset management and annotation for YOLOv8.
 - **Smartphone App:** A custom app or a generic Bluetooth serial terminal app to send commands to the car.
 
 ## Circuit Diagram
@@ -32,19 +29,6 @@ This project is a Bluetooth-controlled car built with a Raspberry Pi Pico. The c
 The schematic for the project is as follows:
 
 ![Schematic](schematic.png)
-
-## Object Detection
-
-The object detection model is trained using YOLOv8 on a custom dataset of soda cans. The notebook `notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb` contains the complete code for training, validation, and testing the model.
-
-The model can identify the following soda can brands:
-- 7UP
-- Big
-- Coke
-- EST
-- Fanta
-- Pepsi
-- Sprite
 
 ## Demonstration
 
